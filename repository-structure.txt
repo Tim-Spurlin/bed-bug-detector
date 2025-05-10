@@ -25,4 +25,23 @@ bed-bug-detector/
 │   │   ├── detection-accuracy-pie.png  # Accuracy comparison
 │   │   └── roi-chart.png               # Return on investment
 │   └── components.md         # Parts list with Amazon links
+├── python/                   # New Python code directory
+│   ├── server/               # Backend server for data processing
+│   │   ├── app.py            # Main Flask server
+│   │   ├── requirements.txt  # Python dependencies
+│   │   ├── config.py         # Server configuration
+│   │   └── README.md         # Server documentation
+│   ├── ml/                   # Machine learning for detection
+│   │   ├── train.py          # Training script for bed bug detection
+│   │   ├── predict.py        # Prediction functions
+│   │   ├── dataset/          # Training data directory
+│   │   └── models/           # Saved model files
+│   ├── desktop/              # Desktop application (alternative to mobile app)
+│   │   ├── main.py           # Main desktop application
+│   │   ├── ui/               # UI components
+│   │   └── requirements.txt  # Desktop app dependencies
+│   └── utils/                # Utility scripts
+│       ├── image_processing.py  # Image enhancement for better detection
+│       ├── data_analysis.py     # Analysis of detection data
+│       └── device_manager.py    # Python interface to ESP32
 └── LICENSE                   # Project license (MIT)
