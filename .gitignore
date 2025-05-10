@@ -1,0 +1,114 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.pnp
+.pnp.js
+
+# Mobile app builds
+/app/build/
+/app/android/app/build/
+/app/android/.gradle/
+/app/android/captures/
+/app/android/local.properties
+/app/android/*.iml
+/app/ios/build/
+/app/ios/Pods/
+/app/ios/*.xcworkspace
+/app/ios/*.xcodeproj/*
+!/app/ios/*.xcodeproj/project.pbxproj
+!/app/ios/*.xcodeproj/xcshareddata/
+!/app/ios/*.xcworkspace/contents.xcworkspacedata
+
+# Debug files
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Arduino/PlatformIO
+.pio
+.pioenvs
+.piolibdeps
+.clang_complete
+.gcc-flags.json
+.vscode
+
+# Build files
+/firmware/build/
+*.hex
+*.elf
+*.bin
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.iml
+
+# Visual Studio Code settings
+.vscode/*
+!.vscode/extensions.json
+
+# Logs
+logs
+*.log
+
+# Firmware temp files
+__pycache__/
+*.py[cod]
+*$py.class
+firmware/*.tmp
+
+# WiFi credentials
+firmware/wifi_credentials.h
+
+# Dependency directories
+jspm_packages/
+
+# Distribution directories
+dist/
+/app/ios/Pods/
+
+# Compiled output
+/app/ios/build/
+/app/android/app/build/
+/dist
+/tmp
+/out-tsc
+
+# Storybook
+storybook-static
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Test files
+coverage/
+.nyc_output/
+
+# User-specific cache
+.firebase/
+.eslintcache
+*.tsbuildinfo
+.runtimeconfig.json
+
+# Local SSL certificates
+*.pem
+*.crt
+*.key
+
+# 3D printing temporary files
+*.gcode
+*.stl.bak
+*.3mf.bak
+hardware/3d-models/sliced/
