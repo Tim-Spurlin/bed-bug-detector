@@ -1,0 +1,28 @@
+bed-bug-detector/
+├── README.md                 # Main project documentation
+├── .gitignore                # Git ignore file
+├── app/                      # Mobile application code
+│   ├── android/              # Android-specific code
+│   ├── ios/                  # iOS-specific code
+│   └── src/                  # Cross-platform app code
+│       ├── components/       # UI components
+│       ├── screens/          # App screens
+│       └── App.js            # Main app entry point
+├── firmware/                 # ESP32/microcontroller code
+│   ├── detector.ino          # Main firmware file
+│   ├── config.h              # Configuration settings
+│   └── README.md             # Firmware documentation
+├── hardware/                 # Hardware-related files
+│   ├── 3d-models/            # 3D printable case files
+│   │   ├── case.stl          # Main case model
+│   │   └── sensor-mount.stl  # Sensor mounting bracket
+│   └── wiring-diagram.md     # Wiring instructions
+├── docs/                     # Project documentation
+│   ├── assembly-guide.md     # Hardware assembly guide
+│   ├── cost-comparison.md    # Cost vs professional services
+│   ├── charts/               # Visual analytics
+│   │   ├── cost-savings-bar.png        # Cost comparison
+│   │   ├── detection-accuracy-pie.png  # Accuracy comparison
+│   │   └── roi-chart.png               # Return on investment
+│   └── components.md         # Parts list with Amazon links
+└── LICENSE                   # Project license (MIT)
